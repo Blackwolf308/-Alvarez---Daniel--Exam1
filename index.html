@@ -3,113 +3,143 @@
 <html>
     <head>
         <title>Chess</title>
-        <link rel="stylesheet"
-              type="tect/css"
-              href="css/materialize.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link rel="stylesheet"
               type="text/css"
               href="css/style.css">
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>    
     </head>
     <body>
         <div class="container">
             <div class='row'>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
             </div>
             <div class="row">
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+            </div>
+            <div class='row'>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
             </div>
             <div class="row">
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+            </div>
+            <div class='row'>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
             </div>
             <div class="row">
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+            </div>
+            <div class='row'>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
             </div>
             <div class="row">
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
+                <div class='cell col-xs-1 white'></div>
+                <div class='cell col-xs-1 black'></div>
             </div>
-            <div class="row">
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-            </div>
-            <div class="row">
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-                <div class='cell col s1 black'></div>
-                <div class='cell col s1 white'></div>
-            </div>
+            <script>
+                $(document).ready(function(){
+                    $(".white").hover(function(){
+                        $(this).css("background-color","blue");
+                    }, function(){
+                        $(this).css("background-color","white");
+                    });
+                    $(".white").click(function(){
+                        alert("now I'm blue");
+                    });
+                    $(".black").click(function(){
+                        alert("but I'M GREEN MOTHA LOVA");
+                    });
+                    $(".cell").toggleClass("white")
+                    $(".cell").toggleClass("black")
+                });
+            </script>
         </div>
     </body>
 </html>

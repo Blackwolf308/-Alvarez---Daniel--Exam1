@@ -1,5 +1,11 @@
-.cell {
+.black {
     height: 100px;
+    background-color: black;
+}
+
+.white {
+    height: 100px;
+    background-color: white;
 }
 
 .row {
@@ -9,7 +15,8 @@
 .container {
     width: 1200px;
 }
-
-.cell:hover {
-    background-color: blue !important;
+.black:hover {
+    background-color: green;
 }
+
+
